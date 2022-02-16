@@ -33,7 +33,6 @@
       background-color: #f5deb3;
       padding: 0.2rem 0.5rem;
       border-radius: 15px;
-      word-break: keep-all;
     }
     
 /* TYPE */
@@ -71,7 +70,7 @@
   @media (prefers-color-scheme: dark) {
     
     body {
-      color: #ffffff;
+      color: #f2eeee;
       background-color: #1c1c1c;
     }
     
@@ -81,6 +80,14 @@
     
     a {
     color: #72e0d1;
+    }
+    
+    pre {
+      background-color: #444D50;
+    }
+    
+    code {
+      background-color: #444D50;
     }
     
   }
