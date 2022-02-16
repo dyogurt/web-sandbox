@@ -1,0 +1,58 @@
+/* MISC */
+
+    html {
+      box-sizing: border-box;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      background-color: #fff5d1;
+    }
+    
+    body {
+      padding: 2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    
+    img {
+      max-width: 100%;
+    }
+    
+/* CODE */
+    
+    pre {
+      overflow: scroll;
+      background-color: #f5deb3;
+      font-size: 0.875em;
+      padding: 0.7rem 0.5rem;
+      border-radius: 15px;
+    }
+    
+    code {
+      font-size: 0.875em;
+      background-color: #f5deb3;
+      padding: 0.2rem 0.5rem;
+      border-radius: 15px;
+    }
+    
+/* TYPE */
+
+    /* FONT */
+
+    h1, h2, h3, h4, h5 {
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 600;
+    }
+
+/* GRID */
+
+    /* atributes of the grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .cell {
+      padding-top: 2em;
+      padding-bottom: 2em;
+      border: 2px solid #6495ED;
+    }
